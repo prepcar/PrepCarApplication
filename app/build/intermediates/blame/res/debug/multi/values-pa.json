@@ -1,0 +1,349 @@
+[
+    {
+        "outputFile": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pa\\values-pa.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 121,
+                    "endOffset": 222
+                },
+                "from": {
+                    "file": "D:\\StudioFolder\\PrepCarApplication\\facebook\\build\\intermediates\\bundles\\default\\res\\values-pa\\values-pa.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 121,
+                        "endOffset": 172
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 227,
+                    "endColumn": 122,
+                    "endOffset": 345
+                },
+                "from": {
+                    "file": "D:\\StudioFolder\\PrepCarApplication\\facebook\\build\\intermediates\\bundles\\default\\res\\values-pa\\values-pa.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 177,
+                        "endColumn": 122,
+                        "endOffset": 295
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 350,
+                    "endColumn": 95,
+                    "endOffset": 441
+                },
+                "from": {
+                    "file": "D:\\StudioFolder\\PrepCarApplication\\facebook\\build\\intermediates\\bundles\\default\\res\\values-pa\\values-pa.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 300,
+                        "endColumn": 95,
+                        "endOffset": 391
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 446,
+                    "endColumn": 72,
+                    "endOffset": 514
+                },
+                "from": {
+                    "file": "D:\\StudioFolder\\PrepCarApplication\\facebook\\build\\intermediates\\bundles\\default\\res\\values-pa\\values-pa.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 396,
+                        "endColumn": 72,
+                        "endOffset": 464
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 519,
+                    "endColumn": 71,
+                    "endOffset": 586
+                },
+                "from": {
+                    "file": "D:\\StudioFolder\\PrepCarApplication\\facebook\\build\\intermediates\\bundles\\default\\res\\values-pa\\values-pa.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 469,
+                        "endColumn": 71,
+                        "endOffset": 536
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 591,
+                    "endColumn": 66,
+                    "endOffset": 653
+                },
+                "from": {
+                    "file": "D:\\StudioFolder\\PrepCarApplication\\facebook\\build\\intermediates\\bundles\\default\\res\\values-pa\\values-pa.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 541,
+                        "endColumn": 66,
+                        "endOffset": 603
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 658,
+                    "endColumn": 72,
+                    "endOffset": 726
+                },
+                "from": {
+                    "file": "D:\\StudioFolder\\PrepCarApplication\\facebook\\build\\intermediates\\bundles\\default\\res\\values-pa\\values-pa.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 608,
+                        "endColumn": 72,
+                        "endOffset": 676
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 731,
+                    "endColumn": 75,
+                    "endOffset": 802
+                },
+                "from": {
+                    "file": "D:\\StudioFolder\\PrepCarApplication\\facebook\\build\\intermediates\\bundles\\default\\res\\values-pa\\values-pa.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 681,
+                        "endColumn": 75,
+                        "endOffset": 752
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 807,
+                    "endColumn": 96,
+                    "endOffset": 899
+                },
+                "from": {
+                    "file": "D:\\StudioFolder\\PrepCarApplication\\facebook\\build\\intermediates\\bundles\\default\\res\\values-pa\\values-pa.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 757,
+                        "endColumn": 96,
+                        "endOffset": 849
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 904,
+                    "endColumn": 77,
+                    "endOffset": 977
+                },
+                "from": {
+                    "file": "D:\\StudioFolder\\PrepCarApplication\\facebook\\build\\intermediates\\bundles\\default\\res\\values-pa\\values-pa.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 854,
+                        "endColumn": 77,
+                        "endOffset": 927
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 982,
+                    "endColumn": 77,
+                    "endOffset": 1055
+                },
+                "from": {
+                    "file": "D:\\StudioFolder\\PrepCarApplication\\facebook\\build\\intermediates\\bundles\\default\\res\\values-pa\\values-pa.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 932,
+                        "endColumn": 77,
+                        "endOffset": 1005
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1060,
+                    "endColumn": 94,
+                    "endOffset": 1150
+                },
+                "from": {
+                    "file": "D:\\StudioFolder\\PrepCarApplication\\facebook\\build\\intermediates\\bundles\\default\\res\\values-pa\\values-pa.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1010,
+                        "endColumn": 94,
+                        "endOffset": 1100
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1155,
+                    "endColumn": 114,
+                    "endOffset": 1265
+                },
+                "from": {
+                    "file": "D:\\StudioFolder\\PrepCarApplication\\facebook\\build\\intermediates\\bundles\\default\\res\\values-pa\\values-pa.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1105,
+                        "endColumn": 114,
+                        "endOffset": 1215
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1270,
+                    "endColumn": 62,
+                    "endOffset": 1328
+                },
+                "from": {
+                    "file": "D:\\StudioFolder\\PrepCarApplication\\facebook\\build\\intermediates\\bundles\\default\\res\\values-pa\\values-pa.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1220,
+                        "endColumn": 62,
+                        "endOffset": 1278
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1333,
+                    "endColumn": 68,
+                    "endOffset": 1397
+                },
+                "from": {
+                    "file": "D:\\StudioFolder\\PrepCarApplication\\facebook\\build\\intermediates\\bundles\\default\\res\\values-pa\\values-pa.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1283,
+                        "endColumn": 68,
+                        "endOffset": 1347
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1402,
+                    "endColumn": 146,
+                    "endOffset": 1544
+                },
+                "from": {
+                    "file": "D:\\StudioFolder\\PrepCarApplication\\facebook\\build\\intermediates\\bundles\\default\\res\\values-pa\\values-pa.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1352,
+                        "endColumn": 146,
+                        "endOffset": 1494
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1549,
+                    "endColumn": 209,
+                    "endOffset": 1754
+                },
+                "from": {
+                    "file": "C:\\Users\\this\\.android\\build-cache\\0707b87dd1368f06a75b72975ea502a0b1195cfe\\output\\res\\values-pa\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 285,
+                        "endColumn": 209,
+                        "endOffset": 494
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1759,
+                    "endColumn": 59,
+                    "endOffset": 1814
+                },
+                "from": {
+                    "file": "D:\\StudioFolder\\PrepCarApplication\\facebook\\build\\intermediates\\bundles\\default\\res\\values-pa\\values-pa.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1499,
+                        "endColumn": 59,
+                        "endOffset": 1554
+                    }
+                }
+            }
+        ]
+    }
+]

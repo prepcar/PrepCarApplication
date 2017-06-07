@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_home.png",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_home.png"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_delete_grey_24dp.png",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_delete_grey_24dp.png"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_delete_black_24dp.png",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_delete_black_24dp.png"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_settings_backup_restore_black_24dp.png",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_settings_backup_restore_black_24dp.png"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_create_black_24dp.png",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_create_black_24dp.png"
+    }
+]

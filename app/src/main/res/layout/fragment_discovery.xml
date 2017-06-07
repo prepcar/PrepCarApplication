@@ -1,0 +1,458 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F4F4"
+    android:orientation="vertical"
+    tools:context="com.dev.prepcarapplication.DiscoveryActivity" >
+
+    <RelativeLayout
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#293A92"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/title_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:fontFamily="fonts/Helvetica-Bold.otf"
+            android:text="@string/discovery"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/image_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/back" />
+        <ImageView
+            android:id="@+id/icHome"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_home" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/identify"
+                android:textColor="#293A92"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:id="@+id/lin_male"
+                    android:layout_width="0dp"
+                    android:layout_height="38dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/discoveryshape"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/image_male"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/male" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="10dp"
+                    android:layout_weight="0.5" />
+
+                <RelativeLayout
+                    android:id="@+id/lin_female"
+                    android:layout_width="0dp"
+                    android:layout_height="38dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/discoveryshape"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/image_female"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/female" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="10dp"
+                    android:layout_weight="0.5" />
+
+                <!--<RelativeLayout
+                    android:id="@+id/lin_other"
+                    android:layout_width="0dp"
+                    android:layout_height="38dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/discoveryshape"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/image_other"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:fontFamily="fonts/Helvetica-Bold.otf"
+                        android:text="@string/other"
+                        android:textAllCaps="true"
+                        android:textColor="#c4c4c4"
+                        android:textStyle="bold" />
+                </RelativeLayout>-->
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/isthis"
+                android:textColor="#293A92"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:id="@+id/lin_yescar"
+                    android:layout_width="0dp"
+                    android:layout_height="38dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/discoveryshape"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/text_yescar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="fonts/Helvetica-Bold.otf"
+                        android:text="@string/yes"
+                        android:textAllCaps="true"
+                        android:textColor="#c4c4c4"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="10dp"
+                    android:layout_weight="0.2" />
+
+                <RelativeLayout
+                    android:id="@+id/lin_nocar"
+                    android:layout_width="0dp"
+                    android:layout_height="38dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/discoveryshape"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/text_nocar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:fontFamily="fonts/Helvetica-Bold.otf"
+                        android:text="@string/no"
+                        android:textAllCaps="true"
+                        android:textColor="#c4c4c4"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/mainuses"
+                android:textAllCaps="true"
+                android:textColor="#293A92"
+                android:textStyle="bold" />
+
+            <com.dev.prepcarapplication.adapter.MultiSelectionSpinner
+                android:id="@+id/dis_uses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/dropdown"
+                android:textColor="#c4c4c4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/height"
+                android:textAllCaps="true"
+                android:textColor="#293A92"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <CheckBox
+                        android:id="@+id/chk_small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/checkbox"
+                        android:fontFamily="fonts/Helvetica-Bold.otf"
+                        android:padding="4dp"
+                        android:text="@string/small"
+                        android:textColor="#00007f"
+                        android:textSize="12sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:background="@drawable/small"
+                        android:visibility="invisible" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <CheckBox
+                        android:id="@+id/chk_medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/checkbox"
+                        android:fontFamily="fonts/Helvetica-Bold.otf"
+                        android:padding="4dp"
+                        android:text="@string/medium"
+                        android:textColor="#00007f"
+                        android:textSize="12sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="3dp"
+                        android:background="@drawable/medius"
+                        android:visibility="invisible" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <CheckBox
+                        android:id="@+id/chk_large"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/checkbox"
+                        android:fontFamily="fonts/Helvetica-Bold.otf"
+                        android:padding="4dp"
+                        android:text="@string/large"
+                        android:textColor="#00007f"
+                        android:textSize="12sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:background="@drawable/large"
+                        android:visibility="invisible" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/smalchildren"
+                android:textColor="#293A92"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:id="@+id/lin_yeschildren"
+                    android:layout_width="0dp"
+                    android:layout_height="38dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/discoveryshape"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/text_yeschildren"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="fonts/Helvetica-Bold.otf"
+                        android:text="@string/yes"
+                        android:textAllCaps="true"
+                        android:textColor="#c4c4c4"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="10dp"
+                    android:layout_weight="0.2" />
+
+                <RelativeLayout
+                    android:id="@+id/lin_nochildren"
+                    android:layout_width="0dp"
+                    android:layout_height="38dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/discoveryshape"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/text_nochildren"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:fontFamily="fonts/Helvetica-Bold.otf"
+                        android:text="@string/no"
+                        android:textAllCaps="true"
+                        android:textColor="#c4c4c4"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/discount"
+                android:textAllCaps="true"
+                android:textColor="#293A92"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/dis_dis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/dropdown" />
+
+           <!-- <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/zipcode"
+                android:textAllCaps="true"
+                android:textColor="#293A92"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edit_zipcode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/input_type"
+                android:inputType="number"
+                android:padding="7dp" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/shopingnote"
+                android:textAllCaps="true"
+                android:textColor="#293A92"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edit_note"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/textarea"
+                android:ems="5"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:gravity="top"
+                android:maxLines="5"
+                android:padding="7dp" />
+
+            <Button
+                android:id="@+id/buton_discovety"
+                style="@style/ButtonAppTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/savedisco"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

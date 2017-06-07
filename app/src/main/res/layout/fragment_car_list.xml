@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dev.prepcarapplication.ProfileActivityDealer" >
+
+    <ListView
+        android:id="@+id/carlist_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp" >
+    </ListView>
+
+    <Button
+        android:id="@+id/buton_addnewcar"
+        style="@style/ButtonAppTheme"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/addnew"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

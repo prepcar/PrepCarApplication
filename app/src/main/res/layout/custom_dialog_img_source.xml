@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/areusureshape"
+    android:padding="10dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp" >
+
+    <LinearLayout
+        android:id="@+id/lin_btns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/transparent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <Button
+              android:fontFamily="fonts/Helvetica-Bold.otf"
+            android:id="@+id/btn_1"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="#293A92"
+            android:text="camera"
+            android:textColor="@android:color/white" />
+
+        <Button
+              android:fontFamily="fonts/Helvetica-Bold.otf"
+            android:id="@+id/btn_2"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="#293A92"
+            android:text="gallery"
+            android:textColor="@android:color/white" />
+
+        <Button
+              android:fontFamily="fonts/Helvetica-Bold.otf"
+            android:id="@+id/btn_3"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:background="#293A92"
+            android:text="cancel"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

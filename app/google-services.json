@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "634218270004",
+    "firebase_url": "https://prepcar-4a198.firebaseio.com",
+    "project_id": "prepcar-4a198",
+    "storage_bucket": "prepcar-4a198.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634218270004:android:874af42e44a16b71",
+        "android_client_info": {
+          "package_name": "com.dev.prepcarapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "634218270004-k7sdljvef5nm92l37mjgpt4ikt4uobs9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dev.prepcarapplication",
+            "certificate_hash": "60C578126F73826A73A81A1C3F56E9A1797A0855"
+          }
+        },
+        {
+          "client_id": "634218270004-22urp8ml62otlv8sdjn7gg51e1fjv81i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwkV1OZNRyPqJSYjDIAaEBq5Z0w8uFZzI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "634218270004-22urp8ml62otlv8sdjn7gg51e1fjv81i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

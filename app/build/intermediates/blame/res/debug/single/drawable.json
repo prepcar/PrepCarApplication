@@ -1,0 +1,382 @@
+[
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\financebuttonshape_selectcar.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\drawable\\financebuttonshape_selectcar.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\camera_crop_width.png",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\drawable\\camera_crop_width.png"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_24.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\drawable\\radio_24.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\new_matches_maybe.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\drawable\\new_matches_maybe.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_round.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\facebook\\build\\intermediates\\bundles\\default\\res\\drawable\\messenger_button_white_bg_round.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_silver_background.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\facebook\\build\\intermediates\\bundles\\default\\res\\drawable\\com_facebook_button_login_silver_background.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\73b8eafa8dc7a727a7ab1194bd90455c63fe1d54\\output\\res\\drawable\\design_password_eye.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_checkbox_checked_mtrl.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\28db55cf7b203edcf89dc5db2bfa5468f61fcea2\\output\\res\\drawable\\btn_checkbox_checked_mtrl.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\camera_crop_height.png",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\drawable\\camera_crop_height.png"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_rotate_left.png",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\drawable\\ic_rotate_left.png"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_done_white_24dp.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\28db55cf7b203edcf89dc5db2bfa5468f61fcea2\\output\\res\\drawable\\ic_done_white_24dp.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_72.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\drawable\\radio_72.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_send_background.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\facebook\\build\\intermediates\\bundles\\default\\res\\drawable\\com_facebook_button_send_background.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\73b8eafa8dc7a727a7ab1194bd90455c63fe1d54\\output\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_like_background.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\facebook\\build\\intermediates\\bundles\\default\\res\\drawable\\com_facebook_button_like_background.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\new_matches_lovedit.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\drawable\\new_matches_lovedit.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_48.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\drawable\\radio_48.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\73b8eafa8dc7a727a7ab1194bd90455c63fe1d54\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_checkbox_unchecked_mtrl.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\28db55cf7b203edcf89dc5db2bfa5468f61fcea2\\output\\res\\drawable\\btn_checkbox_unchecked_mtrl.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\image_placeholder.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\2aa6ef835232b33fb9ddb57cb4290eed2d3af3ff\\output\\res\\drawable\\image_placeholder.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\multislider_tick_mark_material.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\742822c1acbbdc639999389be10ed2f5dcc9523f\\output\\res\\drawable\\multislider_tick_mark_material.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\newcheckbox.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\drawable\\newcheckbox.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\white_radius.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\1d93cb99b61a29703b306b4f08753e3d199e396d\\output\\res\\drawable\\white_radius.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\multislider_track_material.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\742822c1acbbdc639999389be10ed2f5dcc9523f\\output\\res\\drawable\\multislider_track_material.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_background.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\facebook\\build\\intermediates\\bundles\\default\\res\\drawable\\com_facebook_button_background.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\message.png",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\drawable\\message.png"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\red_dot.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\drawable\\red_dot.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_round.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\facebook\\build\\intermediates\\bundles\\default\\res\\drawable\\messenger_button_blue_bg_round.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\currentcarshape.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\drawable\\currentcarshape.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\drawable\\checkbox.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_60.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\drawable\\radio_60.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_select_all.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\28db55cf7b203edcf89dc5db2bfa5468f61fcea2\\output\\res\\drawable\\ic_select_all.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\multislider_range_material.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\742822c1acbbdc639999389be10ed2f5dcc9523f\\output\\res\\drawable\\multislider_range_material.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_clear.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\28db55cf7b203edcf89dc5db2bfa5468f61fcea2\\output\\res\\drawable\\ic_clear.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\newradio.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\drawable\\newradio.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_selector.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\facebook\\build\\intermediates\\bundles\\default\\res\\drawable\\messenger_button_blue_bg_selector.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\buttonshape.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\drawable\\buttonshape.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_rotate_right.png",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\drawable\\ic_rotate_right.png"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\financebuttonshape.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\drawable\\financebuttonshape.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_36.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\drawable\\radio_36.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\new_matches_nope.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\drawable\\new_matches_nope.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\multislider_thumb_material.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\742822c1acbbdc639999389be10ed2f5dcc9523f\\output\\res\\drawable\\multislider_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\download.jpg",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\drawable\\download.jpg"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rangedealergreen.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\drawable\\rangedealergreen.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\newcarshape.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\drawable\\newcarshape.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rangedealer.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\drawable\\rangedealer.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\73b8eafa8dc7a727a7ab1194bd90455c63fe1d54\\output\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_autocrop.png",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\drawable\\indicator_autocrop.png"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\areusureshape.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\drawable\\areusureshape.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\phone.png",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\drawable\\phone.png"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_check_material_anim.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\28db55cf7b203edcf89dc5db2bfa5468f61fcea2\\output\\res\\drawable\\btn_check_material_anim.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rangedealerselect.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\drawable\\rangedealerselect.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\73b8eafa8dc7a727a7ab1194bd90455c63fe1d54\\output\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\discoveryshape.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\drawable\\discoveryshape.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading.png",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\drawable\\loading.png"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_selector.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\facebook\\build\\intermediates\\bundles\\default\\res\\drawable\\messenger_button_white_bg_selector.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\toggle.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\drawable\\toggle.xml"
+    }
+]

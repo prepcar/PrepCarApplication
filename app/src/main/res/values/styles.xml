@@ -1,0 +1,59 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="AppTheme.Fullscreen">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Time_picker">
+        <item name="android:numbersTextColor">#ffffff</item>
+    </style>
+
+    <style name="ButtonAppTheme" parent="android:Widget.Holo.Light.Button">
+        <item name="android:background">@drawable/buttonshape</item>
+    </style>
+    <style name="ButtonAppTheme1" parent="android:Widget.Holo.Light.Button">
+        <item name="android:background">@drawable/financebuttonshape</item>
+    </style>
+    <style name="ButtonAppTheme2" parent="android:Widget.Holo.Light.Button">
+        <item name="android:background">@drawable/currentcarshape</item>
+    </style>
+    <style name="ButtonAppTheme3" parent="android:Widget.Holo.Light.Button">
+        <item name="android:background">@drawable/newcarshape</item>
+    </style>
+    <style name="AppTheme.Louvre.Light.DarkActionBar" parent="Louvre.Theme.Light.DarkActionBar">
+
+    </style>
+    <style name="AppTheme.Louvre.Dark" parent="Louvre.Theme.Dark">
+
+    </style>
+    <style name="AppTheme.Louvre.Light" parent="Louvre.Theme.Light">
+
+    </style>
+    <style name="AppTheme.Louvre.Preview" parent="Louvre.Theme.Preview">
+
+    </style>
+
+</resources>

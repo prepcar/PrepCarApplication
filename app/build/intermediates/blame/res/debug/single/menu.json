@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_contextual_action_bar.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\2aa6ef835232b33fb9ddb57cb4290eed2d3af3ff\\output\\res\\menu\\menu_contextual_action_bar.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\menu\\slider.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\menu\\slider.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main_screen.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\menu\\main_screen.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\menu\\current_car.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\menu\\current_car.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\menu\\gallery_menu.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\28db55cf7b203edcf89dc5db2bfa5468f61fcea2\\output\\res\\menu\\gallery_menu.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\menu\\profile.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\menu\\profile.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\menu\\navigate_screen.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\menu\\navigate_screen.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\menu\\new_car.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\menu\\new_car.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\menu\\login.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\menu\\login.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\menu\\finances.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\menu\\finances.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\menu\\sign_up.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\menu\\sign_up.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\menu\\iam_hesitant.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\menu\\iam_hesitant.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\menu\\discovery.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\menu\\discovery.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\menu\\splash.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\menu\\splash.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\menu\\iknow_what_iwant.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\menu\\iknow_what_iwant.xml"
+    }
+]

@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/profile_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" >
+
+        <com.dev.prepcarapplication.utilities.RoundedImageView
+            android:id="@+id/profile_image1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/splash" />
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_image" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/frstname"
+                android:textAllCaps="true"
+                android:textColor="#293A92"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/profile_frstname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/input_type"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:hint="@string/frstname"
+                android:inputType="text"
+                android:padding="8dp"
+                android:textColorHint="#c4c4c4"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/lastname"
+                android:textAllCaps="true"
+                android:textColor="#293A92"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/profile_lastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/input_type"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:hint="@string/lastname"
+                android:inputType="text"
+                android:padding="8dp"
+                android:textColorHint="#c4c4c4"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/email"
+                android:textAllCaps="true"
+                android:textColor="#293A92"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/profile_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/input_type"
+                android:focusable="false"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:padding="8dp"
+                android:textColorHint="#c4c4c4"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/phonenumber"
+                android:textAllCaps="true"
+                android:textColor="#293A92"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/profile_phoneno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/input_type"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:hint="@string/phonenumber"
+                android:inputType="number"
+                android:padding="8dp"
+                android:textColorHint="#c4c4c4"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/state"
+                android:textAllCaps="true"
+                android:textColor="#293A92"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/profile_state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/input_type"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:hint="@string/state"
+                android:inputType="text"
+                android:padding="8dp"
+                android:textColorHint="#c4c4c4"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/city"
+                android:textAllCaps="true"
+                android:textColor="#293A92"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/profile_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/input_type"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:hint="@string/city"
+                android:inputType="text"
+                android:padding="8dp"
+                android:textColorHint="#c4c4c4"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_street_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/stretadres"
+                android:textAllCaps="true"
+                android:textColor="#293A92"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/profile_streetadd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/input_type"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:hint="@string/stretadres"
+                android:inputType="text"
+                android:padding="8dp"
+                android:textColorHint="#c4c4c4"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_zipcode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/zipcode"
+                android:textAllCaps="true"
+                android:textColor="#293A92"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/profile_zipcode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/input_type"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:hint="@string/zipcode"
+                android:inputType="number"
+                android:padding="8dp"
+                android:textColorHint="#c4c4c4"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:id="@+id/layout_dealership"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_dealership"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/dealership"
+                android:textAllCaps="true"
+                android:textColor="#293A92"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/profile_dealership"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/input_type"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:hint="@string/dealership"
+                android:inputType="number"
+                android:padding="8dp"
+                android:textColorHint="#c4c4c4"
+                android:focusable="false"
+                android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_dealership_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_dealership_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/dealership_code"
+                android:textAllCaps="true"
+                android:textColor="#293A92"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/profile_dealership_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/input_type"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:hint="@string/dealership_code"
+                android:focusable="false"
+                android:inputType="number"
+                android:padding="8dp"
+                android:textColorHint="#c4c4c4"
+                android:textSize="15sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/profile_submit"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="#293A92"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/update"
+                android:textColor="@android:color/white" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:paddingBottom="20dp"
+                >
+            <TextView
+                android:id="@+id/text_about_us"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/com_facebook_blue"
+                android:text="About us |"/>
+
+            <TextView
+                android:id="@+id/text_terms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/com_facebook_blue"
+                android:text="  Terms |"/>
+
+            <TextView
+                android:id="@+id/text_privacy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/com_facebook_blue"
+                android:text="  Privacy |"/>
+
+            <TextView
+                android:id="@+id/text_contact_us"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/com_facebook_blue"
+                android:text="  Contact us "/>
+        </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

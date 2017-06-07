@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    }
+]

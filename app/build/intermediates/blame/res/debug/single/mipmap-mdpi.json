@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_cross.png",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\mipmap-mdpi\\ic_cross.png"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\app_icon.png",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\mipmap-mdpi\\app_icon.png"
+    }
+]

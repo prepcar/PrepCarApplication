@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_home.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_home.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\73b8eafa8dc7a727a7ab1194bd90455c63fe1d54\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_create_black_24dp.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_create_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_delete_grey_24dp.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_delete_grey_24dp.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_delete_black_24dp.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_delete_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\73b8eafa8dc7a727a7ab1194bd90455c63fe1d54\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_settings_backup_restore_black_24dp.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_settings_backup_restore_black_24dp.xml"
+    }
+]

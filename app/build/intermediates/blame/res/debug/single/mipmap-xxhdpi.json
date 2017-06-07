@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_cross.png",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_cross.png"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\app_icon.png",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\mipmap-xxhdpi\\app_icon.png"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_action_delete.png",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_action_delete.png"
+    }
+]

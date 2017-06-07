@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/topLay"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="@android:color/darker_gray">
+
+            <!-- <TextView
+                android:id="@+id/text_bestprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:background="#ffffff"
+                android:textSize="18sp"
+                android:text="N/A"
+                android:textStyle="bold" />-->
+
+            <!-- <ImageView
+                 android:id="@+id/maches_carpic"
+                 android:layout_width="fill_parent"
+                 android:layout_height="220dp"
+                 android:layout_alignParentLeft="true"
+                 android:layout_alignParentStart="true"
+                 android:layout_alignParentTop="true"
+                 android:src="@drawable/car" />-->
+            <android.support.v4.view.ViewPager
+                android:id="@+id/pager"
+                android:layout_width="fill_parent"
+                android:layout_height="220dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true" />
+
+            <ImageView
+                android:id="@+id/deletefav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ic_delete_black_24dp" />
+
+            <TextView
+                android:id="@+id/text_deal_expire"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="#ffffff"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:padding="10dp"
+                android:text="SORRY BUT THIS DEAL EXPIRED"
+                android:textColor="#e11818"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/topLay"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@+id/rr_dealer">
+
+            <TextView
+                android:id="@+id/text_card1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="Prp * 4588 * dsafkj"
+                android:textColor="@color/com_facebook_blue" />
+
+            <TextView
+                android:id="@+id/text_other_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="$223"
+                android:textColor="@color/com_facebook_blue" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_card5"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:gravity="center"
+                android:text="LEASE OPTIONS: "
+                android:textColor="@color/com_facebook_blue" />
+
+            <TextView
+                android:id="@+id/text_lease_options"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_finance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_color"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:gravity="center"
+                    android:text="FINANCE DEAL: "
+                    android:textColor="@color/com_facebook_blue" />
+
+                <TextView
+                    android:id="@+id/text_finance_deal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:gravity="center" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_color_transmission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_finance"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:gravity="center"
+                    android:text="TRADE-IN: "
+                    android:textColor="#967552" />
+
+                <TextView
+                    android:id="@+id/text_tradeinoffer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:gravity="center" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:gravity="center"
+                    android:text="DOWN: "
+                    android:textColor="@color/com_facebook_blue" />
+
+                <TextView
+                    android:id="@+id/text_downpayment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:gravity="center" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:gravity="center"
+                    android:text="APR: "
+                    android:textColor="#297D32" />
+
+                <TextView
+                    android:id="@+id/text_interest_rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:gravity="center" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <com.dev.prepcarapplication.utilities.EllipsizingTextView
+            android:id="@+id/text_card5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rr_dealer"
+            android:fontFamily="fonts/Helvetica-Bold.otf"
+            android:padding="10dp"
+            android:text="description" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_color_transmission"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/rel_share"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/discoveryshape"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:text="@string/share"
+                    android:textSize="10sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel_testdrive"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/discoveryshape"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/tv_test_drive"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:text="@string/testdrive"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel_sendsimilar"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1.2"
+                android:background="@drawable/discoveryshape"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:text="@string/sendsimilar"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel_contact"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/discoveryshape"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:text="@string/contact"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rr_dealer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="160dp">
+
+            <com.dev.prepcarapplication.utilities.RoundedImageView
+                android:id="@+id/cirImage"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_centerHorizontal="true"
+                android:padding="3dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/download" />
+
+            <TextView
+                android:id="@+id/text_card3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cirImage"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text=""
+                android:textColor="#293A92" />
+
+            <RatingBar
+                android:id="@+id/rating"
+                style="?attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_card3"
+                android:isIndicator="true"
+                android:rating="3" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

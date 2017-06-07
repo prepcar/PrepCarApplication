@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/close_text1"
+        android:layout_margin="20dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="fonts/Helvetica-Bold.otf"
+            android:text="@string/oldpass"
+            android:textColor="#293A92"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/change_curent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input_type"
+            android:fontFamily="fonts/Helvetica-Bold.otf"
+            android:hint="@string/oldpass"
+            android:inputType="textPassword"
+            android:padding="8dp"
+            android:textColorHint="#c4c4c4"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="fonts/Helvetica-Bold.otf"
+            android:text="@string/newpass"
+            android:textColor="#293A92"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/change_newpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input_type"
+            android:fontFamily="fonts/Helvetica-Bold.otf"
+            android:hint="@string/newpass"
+            android:inputType="textPassword"
+            android:padding="8dp"
+            android:textColorHint="#c4c4c4"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="fonts/Helvetica-Bold.otf"
+            android:text="@string/connewpass"
+            android:textColor="#293A92"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/change_conpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input_type"
+            android:fontFamily="fonts/Helvetica-Bold.otf"
+            android:hint="@string/connewpass"
+            android:inputType="textPassword"
+            android:padding="8dp"
+            android:textColorHint="#c4c4c4"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/change_submit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#293A92"
+        android:fontFamily="fonts/Helvetica-Bold.otf"
+        android:text="@string/submit"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

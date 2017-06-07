@@ -1,0 +1,639 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F4F4"
+    android:orientation="vertical"
+    tools:context="com.dev.prepcarapplication.FinancesActivity">
+
+    <RelativeLayout
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#2391D0"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/title_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:fontFamily="fonts/Helvetica-Bold.otf"
+            android:text="@string/finance"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/image_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/back" />
+        <ImageView
+            android:id="@+id/icHome"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_home" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/doyouneed"
+                android:textAllCaps="true"
+                android:textColor="#2391D0"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/lin_yesfinance"
+                    android:layout_width="0dp"
+                    android:layout_height="38dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/discoveryshape"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text_yesfianace"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="fonts/Helvetica-Bold.otf"
+                        android:text="@string/yes"
+                        android:textAllCaps="true"
+                        android:textColor="#c4c4c4"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="10dp"
+                    android:layout_weight="0.2" />
+
+                <RelativeLayout
+                    android:id="@+id/lin_nofinance"
+                    android:layout_width="0dp"
+                    android:layout_height="38dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/discoveryshape"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text_nofianace"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:fontFamily="fonts/Helvetica-Bold.otf"
+                        android:text="@string/no"
+                        android:textAllCaps="true"
+                        android:textColor="#c4c4c4"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_finance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/estincome"
+                android:textAllCaps="true"
+                android:textColor="#2391D0"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edit_income"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/input_type"
+                android:inputType="number"
+                android:padding="7dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/rent"
+                android:textAllCaps="true"
+                android:textColor="#2391D0"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/lin_yesrent"
+                    android:layout_width="0dp"
+                    android:layout_height="38dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/discoveryshape"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text_yesrent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="fonts/Helvetica-Bold.otf"
+                        android:text="@string/yes"
+                        android:textAllCaps="true"
+                        android:textColor="#c4c4c4"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="10dp"
+                    android:layout_weight="0.2" />
+
+                <RelativeLayout
+                    android:id="@+id/lin_norent"
+                    android:layout_width="0dp"
+                    android:layout_height="38dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/discoveryshape"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text_norent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:fontFamily="fonts/Helvetica-Bold.otf"
+                        android:text="@string/no"
+                        android:textAllCaps="true"
+                        android:textColor="#c4c4c4"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_amountrent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/amount"
+                android:textAllCaps="true"
+                android:textColor="#2391D0"
+                android:textStyle="bold"
+                />
+
+            <EditText
+                android:id="@+id/edit_amountrent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/input_type"
+                android:inputType="number"
+                android:padding="7dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/mortgagae"
+                android:textAllCaps="true"
+                android:textColor="#2391D0"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/lin_yesmortgage"
+                    android:layout_width="0dp"
+                    android:layout_height="38dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/discoveryshape"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text_yesmortgage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="fonts/Helvetica-Bold.otf"
+                        android:text="@string/yes"
+                        android:textAllCaps="true"
+                        android:textColor="#c4c4c4"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="10dp"
+                    android:layout_weight="0.2" />
+
+                <RelativeLayout
+                    android:id="@+id/lin_nomortgage"
+                    android:layout_width="0dp"
+                    android:layout_height="38dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/discoveryshape"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text_nomortgage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:fontFamily="fonts/Helvetica-Bold.otf"
+                        android:text="@string/no"
+                        android:textAllCaps="true"
+                        android:textColor="#c4c4c4"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/amount"
+                android:textAllCaps="true"
+                android:textColor="#2391D0"
+                android:textStyle="bold"
+                />
+
+            <EditText
+                android:id="@+id/edit_amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/input_type"
+                android:inputType="number"
+                android:padding="7dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/studentloans"
+                android:textAllCaps="true"
+                android:textColor="#2391D0"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/lin_yesstuloan"
+                    android:layout_width="0dp"
+                    android:layout_height="38dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/discoveryshape"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text_yesstuloan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="fonts/Helvetica-Bold.otf"
+                        android:text="@string/yes"
+                        android:textAllCaps="true"
+                        android:textColor="#c4c4c4"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="10dp"
+                    android:layout_weight="0.2" />
+
+                <RelativeLayout
+                    android:id="@+id/lin_nostuloan"
+                    android:layout_width="0dp"
+                    android:layout_height="38dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/discoveryshape"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text_nostuloan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:fontFamily="fonts/Helvetica-Bold.otf"
+                        android:text="@string/no"
+                        android:textAllCaps="true"
+                        android:textColor="#c4c4c4"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_amount1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/amount"
+                android:textAllCaps="true"
+                android:textColor="#2391D0"
+                android:textStyle="bold"
+                />
+
+            <EditText
+                android:id="@+id/edit_amount1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/input_type"
+                android:inputType="number"
+                android:padding="7dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/estcredit"
+                android:textAllCaps="true"
+                android:textColor="#2391D0"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:text="$350"
+                    android:textColor="#2391D0" />
+
+                <TextView
+                    android:id="@+id/text_seekbar"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:gravity="center"
+                    android:textColor="#2391D0" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:gravity="right"
+                    android:text="$850"
+                    android:textColor="#2391D0" />
+            </LinearLayout>
+
+            <SeekBar
+                android:id="@+id/seek_credit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="500"
+                android:maxHeight="3dp"
+                android:progressTint="#2391D0"
+                android:thumbTint="#2391D0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/sugmonpay"
+                android:textAllCaps="true"
+                android:textColor="#2391D0"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/spiner_payment"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/input_type"
+                    android:focusable="false" />
+
+                <Button
+                    style="@style/ButtonAppTheme1"
+                    android:layout_marginTop="7dp"
+                    android:id="@+id/buton_tax"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@android:color/white"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.5"
+                    android:text="Calculate" />
+            </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_choose_own"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="OR"
+                android:textAllCaps="true"
+                android:textColor="#2391D0"
+                android:visibility="gone"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/choseyoyrown"
+                android:textAllCaps="true"
+                android:textColor="#2391D0"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spiner_own"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/dropdown" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/budget"
+                android:textAllCaps="true"
+                android:textColor="#2391D0"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spiner_budget"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/dropdown" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/downpayment"
+                android:textAllCaps="true"
+                android:textColor="#2391D0"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:text="$0"
+                    android:textColor="#2391D0" />
+
+                <TextView
+                    android:id="@+id/text_seekbar2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:gravity="center"
+                    android:textColor="#2391D0" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:gravity="right"
+                    android:text="$20000"
+                    android:textColor="#2391D0" />
+            </LinearLayout>
+
+            <SeekBar
+
+                android:id="@+id/seek_payment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="20000"
+                android:progressTint="#2391D0"
+                android:thumbTint="#2391D0" />
+
+            <TextView
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/dateofbirth"
+                android:textAllCaps="true"
+                android:textColor="#2391D0"
+                android:textStyle="bold" />
+
+            <EditText
+                android:visibility="gone"
+                android:id="@+id/edit_dob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/input_type"
+                android:focusable="false"
+                android:inputType="number"
+                android:padding="7dp" />
+            </LinearLayout>
+            <Button
+                android:id="@+id/buton_finance"
+                style="@style/ButtonAppTheme1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/savefinance"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

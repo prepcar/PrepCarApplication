@@ -1,0 +1,302 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dev.prepcarapplication.IKnowWhatIWantActivity">
+
+    <RelativeLayout
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#70BF66"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/title_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:fontFamily="fonts/Helvetica-Bold.otf"
+            android:text="@string/iknow"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/image_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/back" />
+        <ImageView
+            android:id="@+id/icHome"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_home" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/iamlooking"
+                android:textAllCaps="true"
+                android:textColor="#70BF66"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/edit_model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/input_type"
+                android:inputType="text"
+                android:padding="7dp"
+                android:visibility="gone" />
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rec_Items"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible" />
+
+
+            <LinearLayout
+                android:id="@+id/insertLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:text="@string/idelcar1"
+                    android:textAllCaps="true"
+                    android:textColor="#70BF66"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:text="Condition"
+                    android:textAllCaps="true"
+                    android:textColor="#70BF66"
+                    android:textStyle="bold" />
+
+                <com.dev.prepcarapplication.adapter.MultiSelectionSpinner
+                    android:id="@+id/spiner_idelcar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:background="@drawable/dropdown" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="fonts/Helvetica-Bold.otf"
+                        android:gravity="center"
+                        android:text="@string/year"
+                        android:textAllCaps="true"
+                        android:textColor="#70BF66"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="fonts/Helvetica-Bold.otf"
+                        android:gravity="center"
+                        android:text="@string/make"
+                        android:textAllCaps="true"
+                        android:textColor="#70BF66"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="fonts/Helvetica-Bold.otf"
+                        android:gravity="center"
+                        android:text="@string/model"
+                        android:textAllCaps="true"
+                        android:textColor="#70BF66"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/spiner_year"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="7dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:inputType="number"
+                        android:maxLength="4"
+                        android:prompt="@string/year" />
+
+                    <EditText
+                        android:id="@+id/spiner_make"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_weight="1"
+                        android:background="@color/white" />
+
+                    <EditText
+                        android:id="@+id/spiner_model"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="7dp"
+                        android:layout_weight="1"
+                        android:background="@color/white" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:text="@string/prefrence"
+                    android:textAllCaps="true"
+                    android:textColor="#70BF66"
+                    android:textStyle="bold" />
+                <com.dev.prepcarapplication.adapter.MultiSelectionSpinner
+                    android:id="@+id/et_features"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:background="@drawable/dropdown"
+                    android:hint="Features"
+                    android:inputType="text"
+                    android:padding="5dp"
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:text="@string/exteriorcolur"
+                    android:textAllCaps="true"
+                    android:textColor="#70BF66"
+                    android:textStyle="bold" />
+                <!--<Spinner
+                    android:id="@+id/spnColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:background="@drawable/dropdown"
+                    android:hint="@string/comment"
+                    android:inputType="text" />-->
+                <com.dev.prepcarapplication.adapter.MultiSelectionSpinner
+                    android:id="@+id/spnColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:background="@drawable/dropdown" />
+                <EditText
+                    android:id="@+id/edit_comment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:background="@color/white"
+                    android:hint="@string/comment"
+                    android:padding="7dp"
+                    android:gravity="top"
+                    android:minHeight="80dp"
+                    android:textColorHint="#c4c4c4" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buton_addmore"
+                style="@style/ButtonAppTheme3"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="10dp"
+                android:text="@string/add"
+                android:textColor="@android:color/white" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/carsearch"
+                android:textAllCaps="true"
+                android:textColor="#70BF66"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/edit_carsearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/textarea"
+                android:ems="5"
+                android:gravity="top"
+                android:inputType="text"
+                android:padding="7dp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/buton_iknowi"
+                style="@style/ButtonAppTheme3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/savenewcar"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

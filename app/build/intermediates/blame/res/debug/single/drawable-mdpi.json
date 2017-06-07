@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_delete_black_24dp.png",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_delete_black_24dp.png"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_home.png",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_home.png"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_create_black_24dp.png",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_create_black_24dp.png"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_delete_grey_24dp.png",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_delete_grey_24dp.png"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_settings_backup_restore_black_24dp.png",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_settings_backup_restore_black_24dp.png"
+    }
+]

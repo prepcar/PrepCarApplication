@@ -1,0 +1,933 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dev.prepcarapplication.IAmHesitantActivity">
+
+    <RelativeLayout
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#70BF66"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/title_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:fontFamily="fonts/Helvetica-Bold.otf"
+            android:text="@string/iam"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/image_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/back" />
+
+        <ImageView
+            android:id="@+id/icHome"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/ic_home" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/yearrange"
+                android:textAllCaps="true"
+                android:textColor="#70BF66"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/minseekvalue"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:text="1990"
+                    android:textColor="#70BF66" />
+
+                <TextView
+                    android:id="@+id/text_seekbar"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:gravity="center"
+                    android:textColor="#70BF66" />
+
+                <TextView
+                    android:id="@+id/maxseekvalue"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:gravity="right"
+                    android:text="2017"
+                    android:textColor="#70BF66" />
+            </LinearLayout>
+
+            <!-- <SeekBar
+                 android:id="@+id/hesitate_seek"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="3dp"
+                 android:max="27"
+                 android:maxHeight="3dp"
+                 android:progressTint="#70BF66"
+                 android:thumbTint="#70BF66" />-->
+            <io.apptik.widget.MultiSlider
+                android:id="@+id/range_slider5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:drawThumbsApart="true"
+                app:range1Color="#70BF66"
+                app:stepsThumbsApart="5"
+                app:thumbNumber="2"
+                app:trackColor="#70BF66"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/type"
+                android:textAllCaps="true"
+                android:textColor="#70BF66"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/chk_new"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@drawable/newcheckbox"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:text="@string/newiam"
+                    android:textColor="#70BF66"
+                    android:textSize="15sp" />
+
+                <CheckBox
+                    android:id="@+id/chk_certified"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@drawable/newcheckbox"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:text="@string/certified"
+                    android:textColor="#70BF66"
+                    android:textSize="15sp" />
+
+                <CheckBox
+                    android:id="@+id/chk_preowned"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@drawable/newcheckbox"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:text="@string/preowned"
+                    android:textColor="#70BF66"
+                    android:textSize="15sp" />
+
+                <CheckBox
+                    android:id="@+id/chk_lease"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@drawable/newcheckbox"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:text="@string/lease"
+                    android:textColor="#70BF66"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/chk_anything"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.4"
+                    android:button="@drawable/newcheckbox"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:text="@string/anythingrelible"
+                    android:textColor="#70BF66"
+                    android:textSize="15sp" />
+
+                <CheckBox
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:button="@drawable/newcheckbox"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:text="@string/certified"
+                    android:textColor="#70BF66"
+                    android:textSize="15sp"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/style"
+                android:textAllCaps="true"
+                android:textColor="#70BF66"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/chk_economy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/newcheckbox"
+                        android:fontFamily="fonts/Helvetica-Bold.otf" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:background="@drawable/economy" />
+
+                    <TextView
+                        android:id="@+id/text_economy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="fonts/Helvetica-Bold.otf"
+                        android:text="@string/economy"
+                        android:textColor="#70BF66"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/chk_suv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/newcheckbox" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:background="@drawable/suv" />
+
+                    <TextView
+                        android:id="@+id/text_suv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="fonts/Helvetica-Bold.otf"
+                        android:text="@string/suv"
+                        android:textColor="#70BF66"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/chk_sedan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/newcheckbox" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:background="@drawable/sedan" />
+
+                    <TextView
+                        android:id="@+id/text_sedan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="fonts/Helvetica-Bold.otf"
+                        android:text="@string/sedan"
+                        android:textColor="#70BF66"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/chk_convertible"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/newcheckbox" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:background="@drawable/convertible" />
+
+                    <TextView
+                        android:id="@+id/text_convertible"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="fonts/Helvetica-Bold.otf"
+                        android:text="@string/convertible"
+                        android:textColor="#70BF66"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/chk_coupe"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/newcheckbox" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:background="@drawable/coupe" />
+
+                    <TextView
+                        android:id="@+id/text_coupe"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="fonts/Helvetica-Bold.otf"
+                        android:text="@string/coupe"
+                        android:textColor="#70BF66"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/chk_luxery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/newcheckbox" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:background="@drawable/luxury" />
+
+                    <TextView
+                        android:id="@+id/text_luxery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="fonts/Helvetica-Bold.otf"
+                        android:text="@string/luxery"
+                        android:textColor="#70BF66"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/chk_rdrowseat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/newcheckbox" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:background="@drawable/rdrowseat" />
+
+                    <TextView
+                        android:id="@+id/text_rdrowseat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="fonts/Helvetica-Bold.otf"
+                        android:text="@string/rdrowseat"
+                        android:textColor="#70BF66"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/chk_hachback"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/newcheckbox" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:background="@drawable/hatchback" />
+
+                    <TextView
+                        android:id="@+id/text_hatchback"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="fonts/Helvetica-Bold.otf"
+                        android:text="@string/hatchback"
+                        android:textColor="#70BF66"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/chk_speed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/newcheckbox" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:background="@drawable/speend" />
+
+                    <TextView
+                        android:id="@+id/text_speed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="fonts/Helvetica-Bold.otf"
+                        android:text="@string/speed"
+                        android:textColor="#70BF66"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/chk_van"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/newcheckbox" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:background="@drawable/van" />
+
+                    <TextView
+                        android:id="@+id/text_van"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="fonts/Helvetica-Bold.otf"
+                        android:text="@string/van"
+                        android:textColor="#70BF66"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/chk_hdtruck"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/newcheckbox" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:background="@drawable/hdtruck" />
+
+                    <TextView
+                        android:id="@+id/text_hdtruck"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="fonts/Helvetica-Bold.otf"
+                        android:text="@string/hdtruck"
+                        android:textColor="#70BF66"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/chk_electric"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/newcheckbox" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:background="@drawable/electric" />
+
+                    <TextView
+                        android:id="@+id/text_electric"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="fonts/Helvetica-Bold.otf"
+                        android:text="@string/electric"
+                        android:textColor="#70BF66"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/chk_selfdriving"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/newcheckbox" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:background="@drawable/selfdriving" />
+
+                    <TextView
+                        android:id="@+id/text_selfdriving"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="fonts/Helvetica-Bold.otf"
+                        android:text="@string/selfdriving"
+                        android:textColor="#70BF66"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/chk_hybrid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/newcheckbox" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:background="@drawable/electric"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:id="@+id/text_hybrid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="fonts/Helvetica-Bold.otf"
+                        android:text="@string/hybrid"
+                        android:textColor="#70BF66"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/milagesmall"
+                android:textAllCaps="true"
+                android:textColor="#70BF66"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/radio_frst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radio_new"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@drawable/newradio"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:padding="3dp"
+                    android:text="@string/newiam"
+                    android:textColor="#70BF66" />
+
+                <RadioButton
+                    android:id="@+id/radio_under10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@drawable/newradio"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:padding="3dp"
+                    android:text="@string/under10k"
+                    android:textColor="#70BF66" />
+
+                <RadioButton
+                    android:id="@+id/radio_under30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@drawable/newradio"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:padding="3dp"
+                    android:text="@string/under30k"
+                    android:textColor="#70BF66" />
+
+                <RadioButton
+                    android:id="@+id/radio_under50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@drawable/newradio"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:padding="3dp"
+                    android:text="@string/under50k"
+                    android:textColor="#70BF66" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radio_second"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radio_under70"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/newradio"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:padding="3dp"
+                    android:text="@string/under70k"
+                    android:textColor="#70BF66" />
+
+                <RadioButton
+                    android:id="@+id/radio_under100"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:button="@drawable/newradio"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:padding="3dp"
+                    android:text="@string/under100k"
+                    android:textColor="#70BF66" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/exteriorcolur"
+                android:textAllCaps="true"
+                android:textColor="#70BF66"
+                android:textStyle="bold" />
+
+            <com.dev.prepcarapplication.adapter.MultiSelectionSpinner
+                android:id="@+id/spiner_colour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/dropdown" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/transmission"
+                android:textAllCaps="true"
+                android:textColor="#70BF66"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spiner_trsmision"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/dropdown" />
+
+            <!--  <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="7dp"
+                  android:fontFamily="fonts/Helvetica-Bold.otf"
+                  android:text="@string/enginepower"
+                  android:textAllCaps="true"
+                  android:textColor="#70BF66"
+                  android:textStyle="bold" />
+
+              <Spinner
+                  android:id="@+id/spiner_enginepower"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="7dp"
+                  android:background="@drawable/dropdown" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/prefrence"
+                android:textAllCaps="true"
+                android:textColor="#70BF66"
+                android:textStyle="bold" />
+
+            <com.dev.prepcarapplication.adapter.MultiSelectionSpinner
+                android:id="@+id/spiner_prefrence"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/dropdown" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/brands"
+                android:textAllCaps="true"
+                android:textColor="#70BF66"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/americns"
+                android:textAllCaps="true"
+                android:textColor="#70BF66"
+                android:textStyle="bold" />
+
+            <com.dev.prepcarapplication.adapter.MultiSelectionSpinner
+                android:id="@+id/spiner_americns"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/dropdown" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/asians"
+                android:textAllCaps="true"
+                android:textColor="#70BF66"
+                android:textStyle="bold" />
+
+            <com.dev.prepcarapplication.adapter.MultiSelectionSpinner
+
+                android:id="@+id/spiner_asians"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/dropdown" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/europians"
+                android:textAllCaps="true"
+                android:textColor="#70BF66"
+                android:textStyle="bold" />
+
+            <com.dev.prepcarapplication.adapter.MultiSelectionSpinner
+                android:id="@+id/spiner_europins"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/dropdown" />
+
+            <Button
+                android:id="@+id/buton_iamcar"
+                style="@style/ButtonAppTheme3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/saveiam"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

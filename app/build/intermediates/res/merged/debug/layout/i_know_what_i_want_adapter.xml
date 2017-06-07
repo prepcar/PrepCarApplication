@@ -1,0 +1,192 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.dev.prepcarapplication.IKnowWhatIWantActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textCar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/idelcar1"
+                android:textAllCaps="true"
+                android:textColor="#70BF66"
+                android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/remove"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:text="@string/removeItem"
+                    android:layout_alignParentRight="true"
+                    android:textAllCaps="true"
+                    android:textColor="#70BF66"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="Condition"
+                android:textAllCaps="true"
+                android:textColor="#70BF66"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/et_idelcar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/dropdown"
+                android:enabled="false"
+                android:padding="5dp" />
+            <LinearLayout
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:gravity="center"
+                    android:text="@string/year"
+                    android:textAllCaps="true"
+                    android:textColor="#70BF66"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:gravity="center"
+                    android:text="@string/make"
+                    android:textAllCaps="true"
+                    android:textColor="#70BF66"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="fonts/Helvetica-Bold.otf"
+                    android:gravity="center"
+                    android:text="@string/model"
+                    android:textAllCaps="true"
+                    android:textColor="#70BF66"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/et_year"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:enabled="false"
+                    android:padding="5dp"
+                    android:prompt="@string/year" />
+
+                <EditText
+                    android:id="@+id/et_make"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:enabled="false"
+                    android:padding="5dp" />
+
+                <EditText
+                    android:id="@+id/et_model"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:enabled="false"
+                    android:padding="5dp" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/prefrence"
+                android:textAllCaps="true"
+                android:textColor="#70BF66"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/et_features"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/dropdown"
+                android:enabled="false"
+                android:padding="5dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/exteriorcolur"
+                android:textAllCaps="true"
+                android:textColor="#70BF66"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/etColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/dropdown"
+                android:enabled="false"
+                android:padding="5dp" />
+            <EditText
+                android:id="@+id/edit_comment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/input_type"
+                android:hint="@string/comment"
+                android:inputType="text"
+                android:enabled="false"
+                android:padding="5dp"
+                android:textColor="#c4c4c4"
+                android:textColorHint="#c4c4c4" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

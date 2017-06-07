@@ -1,0 +1,202 @@
+[
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\28db55cf7b203edcf89dc5db2bfa5468f61fcea2\\output\\res\\anim\\btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\btn_checkbox_checked_mtrl_animation_interpolator_1.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\28db55cf7b203edcf89dc5db2bfa5468f61fcea2\\output\\res\\anim\\btn_checkbox_checked_mtrl_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_up.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\anim\\slide_in_up.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\commons_fade_out.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\anim\\commons_fade_out.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\commons_slide_to_left.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\anim\\commons_slide_to_left.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\73b8eafa8dc7a727a7ab1194bd90455c63fe1d54\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\73b8eafa8dc7a727a7ab1194bd90455c63fe1d54\\output\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\btn_checkbox_checked_mtrl_animation_interpolator_0.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\28db55cf7b203edcf89dc5db2bfa5468f61fcea2\\output\\res\\anim\\btn_checkbox_checked_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_bottom.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\anim\\slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_in.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\btn_checkbox_to_unchecked_check_path_merged_animation.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\28db55cf7b203edcf89dc5db2bfa5468f61fcea2\\output\\res\\anim\\btn_checkbox_to_unchecked_check_path_merged_animation.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_top.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\anim\\slide_out_to_top.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\commons_slide_to_right.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\anim\\commons_slide_to_right.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\73b8eafa8dc7a727a7ab1194bd90455c63fe1d54\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\commons_slide_from_left.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\anim\\commons_slide_from_left.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\commons_zoom_exit.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\anim\\commons_zoom_exit.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_up.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\anim\\slide_out_up.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_top.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\anim\\slide_in_from_top.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\btn_checkbox_to_checked_box_inner_merged_animation.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\28db55cf7b203edcf89dc5db2bfa5468f61fcea2\\output\\res\\anim\\btn_checkbox_to_checked_box_inner_merged_animation.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\commons_zoom_enter.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\anim\\commons_zoom_enter.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\btn_checkbox_to_checked_icon_null_animation.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\28db55cf7b203edcf89dc5db2bfa5468f61fcea2\\output\\res\\anim\\btn_checkbox_to_checked_icon_null_animation.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\splash_guide_logo.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\anim\\splash_guide_logo.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\28db55cf7b203edcf89dc5db2bfa5468f61fcea2\\output\\res\\anim\\btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\btn_checkbox_to_checked_box_outer_merged_animation.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\28db55cf7b203edcf89dc5db2bfa5468f61fcea2\\output\\res\\anim\\btn_checkbox_to_checked_box_outer_merged_animation.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\73b8eafa8dc7a727a7ab1194bd90455c63fe1d54\\output\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\commons_slide_from_right.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\anim\\commons_slide_from_right.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\commons_hold.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\anim\\commons_hold.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_right.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\anim\\slide_in_right.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\commons_slide_bottom_to_up.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\anim\\commons_slide_bottom_to_up.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\commons_slide_up_to_bottom.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\anim\\commons_slide_up_to_bottom.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\c2737f7731563949a51765cce7b920e09c0f72ce\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_right.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\anim\\slide_out_right.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\btn_checkbox_to_unchecked_box_inner_merged_animation.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\28db55cf7b203edcf89dc5db2bfa5468f61fcea2\\output\\res\\anim\\btn_checkbox_to_unchecked_box_inner_merged_animation.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\73b8eafa8dc7a727a7ab1194bd90455c63fe1d54\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\btn_checkbox_to_unchecked_icon_null_animation.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\28db55cf7b203edcf89dc5db2bfa5468f61fcea2\\output\\res\\anim\\btn_checkbox_to_unchecked_icon_null_animation.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\commons_fade_in.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\anim\\commons_fade_in.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_bottom.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\anim\\slide_out_to_bottom.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_down.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\anim\\slide_in_down.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\splash_guide_items.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\anim\\splash_guide_items.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\this\\.android\\build-cache\\73b8eafa8dc7a727a7ab1194bd90455c63fe1d54\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "D:\\StudioFolder\\PrepCarApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_down.xml",
+        "source": "D:\\StudioFolder\\PrepCarApplication\\app\\src\\main\\res\\anim\\slide_out_down.xml"
+    }
+]

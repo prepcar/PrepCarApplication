@@ -1,0 +1,719 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:2:1-256:12
+	package
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:4:5-41
+		INJECTED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml
+		INJECTED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:6:5-30
+		INJECTED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml
+		INJECTED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:5:5-28
+		INJECTED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml
+		INJECTED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:8:5-62
+MERGED from [com.facebook.android:facebook:4.2.0] D:\StudioFolder\PrepCarApplication\facebook\build\intermediates\bundles\default\AndroidManifest.xml:24:5-26:41
+MERGED from [PrepCarApplication:cardstackview:unspecified] D:\StudioFolder\PrepCarApplication\cardstackview\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.andremion:louvre:1.0.1] C:\Users\this\.android\build-cache\28db55cf7b203edcf89dc5db2bfa5468f61fcea2\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.andremion:counterfab:1.0.1] C:\Users\this\.android\build-cache\c1d23fa8339b148a37535a3c35a5bdbd76f11d34\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.chrisbanes:PhotoView:1.3.1] C:\Users\this\.android\build-cache\5d2c6fb231e2b5c741a991c005dab31bb3111957\output\AndroidManifest.xml:8:5-10:41
+MERGED from [me.relex:circleindicator:1.2.2] C:\Users\this\.android\build-cache\1d93cb99b61a29703b306b4f08753e3d199e396d\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\this\.android\build-cache\84ee69bc9792aea8a048f4190898f955bee35916\output\AndroidManifest.xml:20:5-43
+MERGED from [io.apptik.widget:multislider:1.3] C:\Users\this\.android\build-cache\742822c1acbbdc639999389be10ed2f5dcc9523f\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\this\.android\build-cache\73b8eafa8dc7a727a7ab1194bd90455c63fe1d54\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:25.3.1] C:\Users\this\.android\build-cache\5f76c1e5164adeaecf0e33e9523a08852737e989\output\AndroidManifest.xml:20:5-44
+MERGED from [com.github.darsh2:MultipleImageSelect:3474549] C:\Users\this\.android\build-cache\2aa6ef835232b33fb9ddb57cb4290eed2d3af3ff\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\this\.android\build-cache\4564a2b4e94bc064a3ecd376ca56d2fc041c9cf9\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\this\.android\build-cache\c2737f7731563949a51765cce7b920e09c0f72ce\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\this\.android\build-cache\11a9885bdc243b0aad88fe105c1eb6b56436d76f\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\this\.android\build-cache\eb95e80e8a0207939f6adcbe2c23ad43c7481e27\output\AndroidManifest.xml:20:5-43
+MERGED from [com.yanzhenjie:recyclerview-swipe:1.0.4] C:\Users\this\.android\build-cache\331906b0937dfe2c5ef2be62d1aa891aae7d8c9c\output\AndroidManifest.xml:21:5-23:41
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\this\.android\build-cache\ca35c503930912468da06d8d441f393f7725ae97\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-core:10.2.0] C:\Users\this\.android\build-cache\74322740482a33f1c9c2d8fdeeba066fa82ae1a6\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\this\.android\build-cache\eee110f8e4a4ea9db63d7f90d45119ce57bc65e9\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] C:\Users\this\.android\build-cache\5ecd895b96ca1ca613c622f7d2e31969282519d9\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\this\.android\build-cache\210e3ea6af060590e293b20527b99a9c99c80ac0\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:10.2.0] C:\Users\this\.android\build-cache\15901a8ba6b4fe8a94955f0ff097890cbce6eefd\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.0] C:\Users\this\.android\build-cache\4efdcc32a8d87dbf537c3cc9bbe678a80a2ebbc8\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\this\.android\build-cache\0707b87dd1368f06a75b72975ea502a0b1195cfe\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\this\.android\build-cache\741e98de1186d9e80bce87a26f75906d28be66ab\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\this\.android\build-cache\fb7f8da73884002ee24b40807c55a5eb7ecb2e0c\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\this\.android\build-cache\9c4d209631acb7d05d3d9e34126dc34a08b218ff\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\this\.android\build-cache\ce59ce494a3017af0b751e2bc46c39a9a03ad190\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\this\.android\build-cache\4e4449036225306359bc9d685f5bc765444e4fed\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\this\.android\build-cache\56b1600a098028412884e14d0f290bf70bd82c51\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:8:15-59
+	android:targetSdkVersion
+		INJECTED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml
+		INJECTED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml
+		INJECTED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:12:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\this\.android\build-cache\eee110f8e4a4ea9db63d7f90d45119ce57bc65e9\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] C:\Users\this\.android\build-cache\5ecd895b96ca1ca613c622f7d2e31969282519d9\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\this\.android\build-cache\210e3ea6af060590e293b20527b99a9c99c80ac0\output\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\this\.android\build-cache\eee110f8e4a4ea9db63d7f90d45119ce57bc65e9\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] C:\Users\this\.android\build-cache\5ecd895b96ca1ca613c622f7d2e31969282519d9\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\this\.android\build-cache\210e3ea6af060590e293b20527b99a9c99c80ac0\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:13:22-76
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:14:5-98
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:14:22-95
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:15:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:16:5-80
+MERGED from [com.github.darsh2:MultipleImageSelect:3474549] C:\Users\this\.android\build-cache\2aa6ef835232b33fb9ddb57cb4290eed2d3af3ff\output\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:16:22-77
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:17:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:18:22-78
+uses-permission#android.permission.CAMERA
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:19:5-65
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:19:22-62
+application
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:21:5-254:19
+MERGED from [com.facebook.android:facebook:4.2.0] D:\StudioFolder\PrepCarApplication\facebook\build\intermediates\bundles\default\AndroidManifest.xml:28:5-20
+MERGED from [PrepCarApplication:cardstackview:unspecified] D:\StudioFolder\PrepCarApplication\cardstackview\build\intermediates\bundles\default\AndroidManifest.xml:11:5-12:19
+MERGED from [com.github.andremion:louvre:1.0.1] C:\Users\this\.android\build-cache\28db55cf7b203edcf89dc5db2bfa5468f61fcea2\output\AndroidManifest.xml:12:5-20
+MERGED from [com.github.andremion:counterfab:1.0.1] C:\Users\this\.android\build-cache\c1d23fa8339b148a37535a3c35a5bdbd76f11d34\output\AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\this\.android\build-cache\84ee69bc9792aea8a048f4190898f955bee35916\output\AndroidManifest.xml:26:5-20
+MERGED from [io.apptik.widget:multislider:1.3] C:\Users\this\.android\build-cache\742822c1acbbdc639999389be10ed2f5dcc9523f\output\AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support:design:25.3.1] C:\Users\this\.android\build-cache\73b8eafa8dc7a727a7ab1194bd90455c63fe1d54\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\this\.android\build-cache\5f76c1e5164adeaecf0e33e9523a08852737e989\output\AndroidManifest.xml:26:5-20
+MERGED from [com.github.darsh2:MultipleImageSelect:3474549] C:\Users\this\.android\build-cache\2aa6ef835232b33fb9ddb57cb4290eed2d3af3ff\output\AndroidManifest.xml:13:5-34:19
+MERGED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\this\.android\build-cache\4564a2b4e94bc064a3ecd376ca56d2fc041c9cf9\output\AndroidManifest.xml:19:5-29:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\this\.android\build-cache\c2737f7731563949a51765cce7b920e09c0f72ce\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\this\.android\build-cache\11a9885bdc243b0aad88fe105c1eb6b56436d76f\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\this\.android\build-cache\eb95e80e8a0207939f6adcbe2c23ad43c7481e27\output\AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-core:10.2.0] C:\Users\this\.android\build-cache\74322740482a33f1c9c2d8fdeeba066fa82ae1a6\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\this\.android\build-cache\eee110f8e4a4ea9db63d7f90d45119ce57bc65e9\output\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] C:\Users\this\.android\build-cache\5ecd895b96ca1ca613c622f7d2e31969282519d9\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\this\.android\build-cache\210e3ea6af060590e293b20527b99a9c99c80ac0\output\AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-common:10.2.0] C:\Users\this\.android\build-cache\15901a8ba6b4fe8a94955f0ff097890cbce6eefd\output\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.0] C:\Users\this\.android\build-cache\4efdcc32a8d87dbf537c3cc9bbe678a80a2ebbc8\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\this\.android\build-cache\0707b87dd1368f06a75b72975ea502a0b1195cfe\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\this\.android\build-cache\741e98de1186d9e80bce87a26f75906d28be66ab\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\this\.android\build-cache\fb7f8da73884002ee24b40807c55a5eb7ecb2e0c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\this\.android\build-cache\9c4d209631acb7d05d3d9e34126dc34a08b218ff\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\this\.android\build-cache\ce59ce494a3017af0b751e2bc46c39a9a03ad190\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\this\.android\build-cache\4e4449036225306359bc9d685f5bc765444e4fed\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\this\.android\build-cache\56b1600a098028412884e14d0f290bf70bd82c51\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:26:9-41
+	android:hardwareAccelerated
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:24:9-44
+	android:allowBackup
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:23:9-35
+	android:icon
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:25:9-40
+	android:largeHeap
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:27:9-33
+	android:theme
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:28:9-40
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:22:9-38
+activity#com.dev.prepcarapplication.SplashActivity
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:29:9-41:20
+	android:screenOrientation
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:33:13-49
+	android:label
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:32:13-45
+	tools:overrideLibrary
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:35:13-65
+	android:configChanges
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:31:13-59
+	android:theme
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:34:13-55
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:30:13-43
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:36:13-40:29
+action#android.intent.action.MAIN
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:37:17-69
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:37:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:39:17-77
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:39:27-74
+activity#com.dev.prepcarapplication.MainScreen
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:42:9-48
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:42:19-45
+activity#com.dev.prepcarapplication.BeforeLoginActivity
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:43:9-47:70
+	android:screenOrientation
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:45:13-49
+	android:windowSoftInputMode
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:47:13-67
+	android:theme
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:46:13-55
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:44:13-48
+activity#com.dev.prepcarapplication.NavigateScreenActivity
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:48:9-50:70
+	android:label
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:50:13-67
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:49:13-51
+activity#com.dev.prepcarapplication.LogInSignUpActivity
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:51:9-55:70
+	android:screenOrientation
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:53:13-49
+	android:windowSoftInputMode
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:55:13-67
+	android:theme
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:54:13-55
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:52:13-48
+activity#com.dev.prepcarapplication.SliderActivity
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:56:9-60:70
+	android:screenOrientation
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:58:13-49
+	android:windowSoftInputMode
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:60:13-67
+	android:theme
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:59:13-55
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:57:13-43
+activity#com.dev.prepcarapplication.LoginActivity
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:61:9-65:70
+	android:screenOrientation
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:63:13-49
+	android:windowSoftInputMode
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:65:13-67
+	android:theme
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:64:13-55
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:62:13-42
+activity#com.dev.prepcarapplication.SignUpActivity
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:66:9-70:70
+	android:screenOrientation
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:68:13-49
+	android:windowSoftInputMode
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:70:13-67
+	android:theme
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:69:13-55
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:67:13-43
+activity#com.dev.prepcarapplication.NavigateActivityBuyer
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:71:9-76:63
+	android:screenOrientation
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:73:13-49
+	android:windowSoftInputMode
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:76:13-60
+	android:configChanges
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:74:13-59
+	android:theme
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:75:13-55
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:72:13-50
+activity#com.dev.prepcarapplication.ForgotPasswordActivity
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:77:9-81:70
+	android:screenOrientation
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:79:13-49
+	android:windowSoftInputMode
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:81:13-67
+	android:theme
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:80:13-55
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:78:13-51
+activity#com.dev.prepcarapplication.NavigateActivityDealer
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:82:9-87:70
+	android:screenOrientation
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:84:13-49
+	android:windowSoftInputMode
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:87:13-67
+	android:configChanges
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:86:13-59
+	android:theme
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:85:13-55
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:83:13-51
+activity#com.dev.prepcarapplication.ProfileActivityDealer
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:88:9-93:70
+	android:screenOrientation
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:90:13-49
+	android:windowSoftInputMode
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:93:13-67
+	android:configChanges
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:92:13-59
+	android:theme
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:91:13-55
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:89:13-50
+activity#com.dev.prepcarapplication.ProfileActivityBuyer
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:94:9-99:70
+	android:screenOrientation
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:96:13-49
+	android:windowSoftInputMode
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:99:13-67
+	android:configChanges
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:98:13-59
+	android:theme
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:97:13-55
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:95:13-49
+activity#eu.janmuller.android.simplecropimage.CropImage
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:100:9-105:63
+	android:screenOrientation
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:104:13-49
+	android:launchMode
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:103:13-43
+	android:windowSoftInputMode
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:105:13-60
+	android:configChanges
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:102:13-63
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:101:13-74
+activity#com.facebook.FacebookActivity
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:107:9-111:75
+	android:label
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:110:13-45
+	android:configChanges
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:109:13-96
+	android:theme
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:111:13-72
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:108:13-57
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:113:9-115:46
+	android:value
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:115:13-43
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:114:13-58
+activity#com.dev.prepcarapplication.DiscoveryActivity
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:117:9-122:70
+	android:screenOrientation
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:119:13-49
+	android:windowSoftInputMode
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:122:13-67
+	android:configChanges
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:121:13-59
+	android:theme
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:120:13-55
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:118:13-46
+activity#com.dev.prepcarapplication.FinancesActivity
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:123:9-128:70
+	android:screenOrientation
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:125:13-49
+	android:windowSoftInputMode
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:128:13-67
+	android:configChanges
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:127:13-59
+	android:theme
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:126:13-55
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:124:13-45
+activity#com.dev.prepcarapplication.CurrentCarActivity
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:129:9-134:70
+	android:screenOrientation
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:131:13-49
+	android:windowSoftInputMode
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:134:13-67
+	android:configChanges
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:133:13-59
+	android:theme
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:132:13-55
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:130:13-47
+activity#com.dev.prepcarapplication.IKnowWhatIWantActivity
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:135:9-140:70
+	android:screenOrientation
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:137:13-49
+	android:windowSoftInputMode
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:140:13-67
+	android:configChanges
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:139:13-59
+	android:theme
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:138:13-55
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:136:13-51
+activity#com.dev.prepcarapplication.IAmHesitantActivity
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:141:9-146:70
+	android:screenOrientation
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:143:13-49
+	android:windowSoftInputMode
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:146:13-67
+	android:configChanges
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:145:13-59
+	android:theme
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:144:13-55
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:142:13-48
+activity#com.dev.prepcarapplication.DealerNewCarActivity
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:147:9-152:70
+	android:screenOrientation
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:149:13-49
+	android:windowSoftInputMode
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:152:13-67
+	android:configChanges
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:151:13-59
+	android:theme
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:150:13-55
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:148:13-49
+activity#com.dev.prepcarapplication.BuyerNewCarActivity
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:153:9-157:70
+	android:screenOrientation
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:155:13-49
+	android:windowSoftInputMode
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:157:13-67
+	android:theme
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:156:13-55
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:154:13-48
+activity#com.dev.prepcarapplication.NotificationActivityBuyer
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:158:9-163:70
+	android:screenOrientation
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:160:13-49
+	android:windowSoftInputMode
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:163:13-67
+	android:configChanges
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:162:13-59
+	android:theme
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:161:13-55
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:159:13-54
+activity#com.dev.prepcarapplication.CarPlanActivity
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:164:9-169:70
+	android:screenOrientation
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:166:13-49
+	android:windowSoftInputMode
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:169:13-67
+	android:configChanges
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:168:13-59
+	android:theme
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:167:13-55
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:165:13-44
+activity#com.dev.prepcarapplication.NewMatcheDetailActivity
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:170:9-175:70
+	android:screenOrientation
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:172:13-49
+	android:windowSoftInputMode
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:175:13-67
+	android:configChanges
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:174:13-59
+	android:theme
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:173:13-55
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:171:13-52
+activity#com.andremion.louvre.home.GalleryActivity
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:176:9-178:74
+	android:theme
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:178:13-71
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:177:13-69
+activity#com.andremion.louvre.preview.PreviewActivity
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:179:9-181:62
+	android:theme
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:181:13-59
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:180:13-72
+activity#com.darsh.multipleimageselect.activities.AlbumSelectActivity
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:182:9-186:20
+MERGED from [com.github.darsh2:MultipleImageSelect:3474549] C:\Users\this\.android\build-cache\2aa6ef835232b33fb9ddb57cb4290eed2d3af3ff\output\AndroidManifest.xml:16:9-24:20
+	android:label
+		ADDED from [com.github.darsh2:MultipleImageSelect:3474549] C:\Users\this\.android\build-cache\2aa6ef835232b33fb9ddb57cb4290eed2d3af3ff\output\AndroidManifest.xml:19:13-45
+	android:configChanges
+		ADDED from [com.github.darsh2:MultipleImageSelect:3474549] C:\Users\this\.android\build-cache\2aa6ef835232b33fb9ddb57cb4290eed2d3af3ff\output\AndroidManifest.xml:18:13-59
+	android:theme
+		ADDED from [com.github.darsh2:MultipleImageSelect:3474549] C:\Users\this\.android\build-cache\2aa6ef835232b33fb9ddb57cb4290eed2d3af3ff\output\AndroidManifest.xml:20:13-60
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:182:19-94
+intent-filter#android.intent.category.DEFAULT
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:183:13-185:29
+category#android.intent.category.DEFAULT
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:184:17-76
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:184:27-73
+activity#com.dev.prepcarapplication.FindRangeDealerActivity
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:187:9-192:70
+	android:screenOrientation
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:189:13-49
+	android:windowSoftInputMode
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:192:13-67
+	android:configChanges
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:191:13-59
+	android:theme
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:190:13-55
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:188:13-52
+activity#com.dev.prepcarapplication.SearchActivityBuyer
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:193:9-198:70
+	android:screenOrientation
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:195:13-49
+	android:windowSoftInputMode
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:198:13-67
+	android:configChanges
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:197:13-59
+	android:theme
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:196:13-55
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:194:13-48
+service#com.dev.prepcarapplication.notification.FCMCallbackService
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:200:9-204:19
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:200:18-65
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:201:13-203:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:202:17-78
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:202:25-75
+service#com.dev.prepcarapplication.notification.FCMInitializationService
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:205:9-209:19
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:205:18-71
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:206:13-208:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:207:17-80
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:207:25-77
+activity#com.dev.prepcarapplication.DealerBuyerDetailActivity
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:211:9-216:70
+	android:screenOrientation
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:213:13-49
+	android:windowSoftInputMode
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:216:13-67
+	android:configChanges
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:215:13-59
+	android:theme
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:214:13-55
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:212:13-54
+activity#com.dev.prepcarapplication.AcceptBuyerRequestActivity
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:217:9-222:70
+	android:screenOrientation
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:219:13-49
+	android:windowSoftInputMode
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:222:13-67
+	android:configChanges
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:221:13-59
+	android:theme
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:220:13-55
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:218:13-55
+activity#com.dev.prepcarapplication.DealerSelectCarActivity
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:223:9-228:70
+	android:screenOrientation
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:225:13-49
+	android:windowSoftInputMode
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:228:13-67
+	android:configChanges
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:227:13-59
+	android:theme
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:226:13-55
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:224:13-52
+activity#com.dev.prepcarapplication.CreateDealActivity
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:229:9-233:69
+	android:screenOrientation
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:231:13-49
+	android:windowSoftInputMode
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:233:13-67
+	android:theme
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:232:13-55
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:230:13-47
+activity#com.dev.prepcarapplication.WebViewActivity
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:235:9-240:69
+	android:screenOrientation
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:237:13-49
+	android:windowSoftInputMode
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:240:13-67
+	android:configChanges
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:239:13-59
+	android:theme
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:238:13-55
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:236:13-44
+activity#com.dev.prepcarapplication.TestDriveActivityDealer
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:242:9-247:69
+	android:screenOrientation
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:244:13-49
+	android:windowSoftInputMode
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:247:13-67
+	android:configChanges
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:246:13-59
+	android:theme
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:245:13-55
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:243:13-52
+activity#com.dev.prepcarapplication.DealerTestDriveDetailActivity
+ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:248:9-253:69
+	android:screenOrientation
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:250:13-49
+	android:windowSoftInputMode
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:253:13-67
+	android:configChanges
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:252:13-59
+	android:theme
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:251:13-55
+	android:name
+		ADDED from D:\StudioFolder\PrepCarApplication\app\src\main\AndroidManifest.xml:249:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:cardview-v7:25.3.1] C:\Users\this\.android\build-cache\84ee69bc9792aea8a048f4190898f955bee35916\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:design:25.3.1] C:\Users\this\.android\build-cache\73b8eafa8dc7a727a7ab1194bd90455c63fe1d54\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\this\.android\build-cache\5f76c1e5164adeaecf0e33e9523a08852737e989\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\this\.android\build-cache\c2737f7731563949a51765cce7b920e09c0f72ce\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\this\.android\build-cache\11a9885bdc243b0aad88fe105c1eb6b56436d76f\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\this\.android\build-cache\eb95e80e8a0207939f6adcbe2c23ad43c7481e27\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\this\.android\build-cache\ca35c503930912468da06d8d441f393f7725ae97\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\this\.android\build-cache\741e98de1186d9e80bce87a26f75906d28be66ab\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\this\.android\build-cache\fb7f8da73884002ee24b40807c55a5eb7ecb2e0c\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\this\.android\build-cache\9c4d209631acb7d05d3d9e34126dc34a08b218ff\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\this\.android\build-cache\ce59ce494a3017af0b751e2bc46c39a9a03ad190\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\this\.android\build-cache\4e4449036225306359bc9d685f5bc765444e4fed\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\this\.android\build-cache\56b1600a098028412884e14d0f290bf70bd82c51\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:cardview-v7:25.3.1] C:\Users\this\.android\build-cache\84ee69bc9792aea8a048f4190898f955bee35916\output\AndroidManifest.xml:24:9-31
+	android:name
+		ADDED from [com.android.support:cardview-v7:25.3.1] C:\Users\this\.android\build-cache\84ee69bc9792aea8a048f4190898f955bee35916\output\AndroidManifest.xml:23:9-47
+activity#com.darsh.multipleimageselect.activities.ImageSelectActivity
+ADDED from [com.github.darsh2:MultipleImageSelect:3474549] C:\Users\this\.android\build-cache\2aa6ef835232b33fb9ddb57cb4290eed2d3af3ff\output\AndroidManifest.xml:25:9-33:20
+	android:label
+		ADDED from [com.github.darsh2:MultipleImageSelect:3474549] C:\Users\this\.android\build-cache\2aa6ef835232b33fb9ddb57cb4290eed2d3af3ff\output\AndroidManifest.xml:28:13-45
+	android:configChanges
+		ADDED from [com.github.darsh2:MultipleImageSelect:3474549] C:\Users\this\.android\build-cache\2aa6ef835232b33fb9ddb57cb4290eed2d3af3ff\output\AndroidManifest.xml:27:13-59
+	android:theme
+		ADDED from [com.github.darsh2:MultipleImageSelect:3474549] C:\Users\this\.android\build-cache\2aa6ef835232b33fb9ddb57cb4290eed2d3af3ff\output\AndroidManifest.xml:29:13-60
+	android:name
+		ADDED from [com.github.darsh2:MultipleImageSelect:3474549] C:\Users\this\.android\build-cache\2aa6ef835232b33fb9ddb57cb4290eed2d3af3ff\output\AndroidManifest.xml:26:13-88
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\this\.android\build-cache\4564a2b4e94bc064a3ecd376ca56d2fc041c9cf9\output\AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\this\.android\build-cache\4564a2b4e94bc064a3ecd376ca56d2fc041c9cf9\output\AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\this\.android\build-cache\4564a2b4e94bc064a3ecd376ca56d2fc041c9cf9\output\AndroidManifest.xml:23:18-87
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\this\.android\build-cache\eee110f8e4a4ea9db63d7f90d45119ce57bc65e9\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] C:\Users\this\.android\build-cache\5ecd895b96ca1ca613c622f7d2e31969282519d9\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\this\.android\build-cache\210e3ea6af060590e293b20527b99a9c99c80ac0\output\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\this\.android\build-cache\eee110f8e4a4ea9db63d7f90d45119ce57bc65e9\output\AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\this\.android\build-cache\eee110f8e4a4ea9db63d7f90d45119ce57bc65e9\output\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] C:\Users\this\.android\build-cache\5ecd895b96ca1ca613c622f7d2e31969282519d9\output\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\this\.android\build-cache\eee110f8e4a4ea9db63d7f90d45119ce57bc65e9\output\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\this\.android\build-cache\eee110f8e4a4ea9db63d7f90d45119ce57bc65e9\output\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\this\.android\build-cache\eee110f8e4a4ea9db63d7f90d45119ce57bc65e9\output\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\this\.android\build-cache\eee110f8e4a4ea9db63d7f90d45119ce57bc65e9\output\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\this\.android\build-cache\eee110f8e4a4ea9db63d7f90d45119ce57bc65e9\output\AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\this\.android\build-cache\eee110f8e4a4ea9db63d7f90d45119ce57bc65e9\output\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\this\.android\build-cache\eee110f8e4a4ea9db63d7f90d45119ce57bc65e9\output\AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\this\.android\build-cache\eee110f8e4a4ea9db63d7f90d45119ce57bc65e9\output\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\this\.android\build-cache\eee110f8e4a4ea9db63d7f90d45119ce57bc65e9\output\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\this\.android\build-cache\eee110f8e4a4ea9db63d7f90d45119ce57bc65e9\output\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\this\.android\build-cache\eee110f8e4a4ea9db63d7f90d45119ce57bc65e9\output\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] C:\Users\this\.android\build-cache\5ecd895b96ca1ca613c622f7d2e31969282519d9\output\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\this\.android\build-cache\eee110f8e4a4ea9db63d7f90d45119ce57bc65e9\output\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\this\.android\build-cache\eee110f8e4a4ea9db63d7f90d45119ce57bc65e9\output\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\this\.android\build-cache\eee110f8e4a4ea9db63d7f90d45119ce57bc65e9\output\AndroidManifest.xml:32:16-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\this\.android\build-cache\210e3ea6af060590e293b20527b99a9c99c80ac0\output\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\this\.android\build-cache\210e3ea6af060590e293b20527b99a9c99c80ac0\output\AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\this\.android\build-cache\210e3ea6af060590e293b20527b99a9c99c80ac0\output\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\this\.android\build-cache\210e3ea6af060590e293b20527b99a9c99c80ac0\output\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\this\.android\build-cache\210e3ea6af060590e293b20527b99a9c99c80ac0\output\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\this\.android\build-cache\210e3ea6af060590e293b20527b99a9c99c80ac0\output\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\this\.android\build-cache\210e3ea6af060590e293b20527b99a9c99c80ac0\output\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\this\.android\build-cache\210e3ea6af060590e293b20527b99a9c99c80ac0\output\AndroidManifest.xml:30:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\this\.android\build-cache\210e3ea6af060590e293b20527b99a9c99c80ac0\output\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\this\.android\build-cache\210e3ea6af060590e293b20527b99a9c99c80ac0\output\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\this\.android\build-cache\210e3ea6af060590e293b20527b99a9c99c80ac0\output\AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\this\.android\build-cache\210e3ea6af060590e293b20527b99a9c99c80ac0\output\AndroidManifest.xml:31:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\this\.android\build-cache\210e3ea6af060590e293b20527b99a9c99c80ac0\output\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\this\.android\build-cache\210e3ea6af060590e293b20527b99a9c99c80ac0\output\AndroidManifest.xml:32:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\this\.android\build-cache\210e3ea6af060590e293b20527b99a9c99c80ac0\output\AndroidManifest.xml:33:17-85
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\this\.android\build-cache\210e3ea6af060590e293b20527b99a9c99c80ac0\output\AndroidManifest.xml:33:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\this\.android\build-cache\210e3ea6af060590e293b20527b99a9c99c80ac0\output\AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\this\.android\build-cache\210e3ea6af060590e293b20527b99a9c99c80ac0\output\AndroidManifest.xml:34:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\this\.android\build-cache\210e3ea6af060590e293b20527b99a9c99c80ac0\output\AndroidManifest.xml:40:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\this\.android\build-cache\210e3ea6af060590e293b20527b99a9c99c80ac0\output\AndroidManifest.xml:40:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\this\.android\build-cache\210e3ea6af060590e293b20527b99a9c99c80ac0\output\AndroidManifest.xml:40:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\this\.android\build-cache\210e3ea6af060590e293b20527b99a9c99c80ac0\output\AndroidManifest.xml:44:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\this\.android\build-cache\210e3ea6af060590e293b20527b99a9c99c80ac0\output\AndroidManifest.xml:44:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\this\.android\build-cache\210e3ea6af060590e293b20527b99a9c99c80ac0\output\AndroidManifest.xml:44:18-82
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.2.0] C:\Users\this\.android\build-cache\15901a8ba6b4fe8a94955f0ff097890cbce6eefd\output\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.2.0] C:\Users\this\.android\build-cache\15901a8ba6b4fe8a94955f0ff097890cbce6eefd\output\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.2.0] C:\Users\this\.android\build-cache\15901a8ba6b4fe8a94955f0ff097890cbce6eefd\output\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.2.0] C:\Users\this\.android\build-cache\15901a8ba6b4fe8a94955f0ff097890cbce6eefd\output\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.2.0] C:\Users\this\.android\build-cache\15901a8ba6b4fe8a94955f0ff097890cbce6eefd\output\AndroidManifest.xml:6:79-143
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\this\.android\build-cache\0707b87dd1368f06a75b72975ea502a0b1195cfe\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\this\.android\build-cache\0707b87dd1368f06a75b72975ea502a0b1195cfe\output\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\this\.android\build-cache\0707b87dd1368f06a75b72975ea502a0b1195cfe\output\AndroidManifest.xml:20:20-65

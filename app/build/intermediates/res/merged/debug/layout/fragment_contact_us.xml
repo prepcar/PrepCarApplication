@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/name"
+                android:textAllCaps="true"
+                android:textColor="#293A92"
+                android:layout_marginTop="30dp"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/profile_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/input_type"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:hint="@string/name"
+                android:inputType="text"
+                android:padding="8dp"
+                android:textColorHint="#c4c4c4"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/email"
+                android:textAllCaps="true"
+                android:textColor="#293A92"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/profile_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/input_type"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:padding="8dp"
+                android:textColorHint="#c4c4c4"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/tv_zipcode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/message"
+                android:textAllCaps="true"
+                android:textColor="#293A92"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/profile_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:minLines="5"
+                android:gravity="start"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:hint="@string/message"
+                android:padding="8dp"
+                android:textColorHint="#c4c4c4"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/profile_submit"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="#293A92"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="@string/done"
+                android:textColor="@android:color/white" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

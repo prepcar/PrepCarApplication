@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\this\.android\build-cache\331906b0937dfe2c5ef2be62d1aa891aae7d8c9c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4d51d7103be1421fe61eb3feb05911cb7cca96a3">
+        <dex dex="D:\StudioFolder\PrepCarApplication\app\build\intermediates\pre-dexed\debug\classes_4cf10a117c20e992ae6bd9120ee371e09d586a62.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\this\.android\build-cache\56b1600a098028412884e14d0f290bf70bd82c51\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="D:\StudioFolder\PrepCarApplication\app\build\intermediates\pre-dexed\debug\classes_b7ba6115497c1787c1fe8d2d7b78f51883f0bb28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\this\.android\build-cache\9c4d209631acb7d05d3d9e34126dc34a08b218ff\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="D:\StudioFolder\PrepCarApplication\app\build\intermediates\pre-dexed\debug\classes_ad18bd0bf5acbf74af12f57b73f48c1e43c930da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\this\.android\build-cache\741e98de1186d9e80bce87a26f75906d28be66ab\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\StudioFolder\PrepCarApplication\app\build\intermediates\pre-dexed\debug\classes_48648e511bc6007fb8fa84a9bb66b35d42876010.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\this\.android\build-cache\11a9885bdc243b0aad88fe105c1eb6b56436d76f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="D:\StudioFolder\PrepCarApplication\app\build\intermediates\pre-dexed\debug\classes_309d8a6c7284c49e6b6f943a2620770006007e88.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\this\.android\build-cache\ca35c503930912468da06d8d441f393f7725ae97\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="D:\StudioFolder\PrepCarApplication\app\build\intermediates\pre-dexed\debug\classes_9c71ac11c30ce16ba1b2b00f87c3431a8b6ef0e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\this\.android\build-cache\fb7f8da73884002ee24b40807c55a5eb7ecb2e0c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="D:\StudioFolder\PrepCarApplication\app\build\intermediates\pre-dexed\debug\classes_a3f2fcf3e6acbb116c76dd69fd71a25921ed3855.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\this\.android\build-cache\eb95e80e8a0207939f6adcbe2c23ad43c7481e27\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="D:\StudioFolder\PrepCarApplication\app\build\intermediates\pre-dexed\debug\classes_ba2e63644a298d698e4833de7467abd46d071077.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\this\.android\build-cache\84ee69bc9792aea8a048f4190898f955bee35916\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="D:\StudioFolder\PrepCarApplication\app\build\intermediates\pre-dexed\debug\classes_8ce56591a4312308546f4fcca049b0129eab822f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\StudioFolder\PrepCarApplication\cardstackview\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="eb7318a0865f0d09436d6b4e9bd85f198fb8aa44">
+        <dex dex="D:\StudioFolder\PrepCarApplication\app\build\intermediates\pre-dexed\debug\classes_1a1ffda7e9ccdc8f5492a3e81e58d0a891bddda0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\StudioFolder\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="D:\StudioFolder\PrepCarApplication\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_1f36f6f13d98701c81ecf4be1b38a58befd1471d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\this\.android\build-cache\ce59ce494a3017af0b751e2bc46c39a9a03ad190\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="D:\StudioFolder\PrepCarApplication\app\build\intermediates\pre-dexed\debug\classes_e691e885beb84e254f07fc7c0dd9681987308c97.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\StudioFolder\PrepCarApplication\facebook\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="067a760104d6936c7eb8561fb1febcd6986f86a3">
+        <dex dex="D:\StudioFolder\PrepCarApplication\app\build\intermediates\pre-dexed\debug\classes_6f5ee9551c984ea3e80bda56757fa3116366b406.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\this\.android\build-cache\73b8eafa8dc7a727a7ab1194bd90455c63fe1d54\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="D:\StudioFolder\PrepCarApplication\app\build\intermediates\pre-dexed\debug\classes_0b800cf3865c6e704ee83c88e7ddf6f5f1396d72.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\this\.android\build-cache\5f76c1e5164adeaecf0e33e9523a08852737e989\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="D:\StudioFolder\PrepCarApplication\app\build\intermediates\pre-dexed\debug\classes_f95b4459243d28a5c4519bb7b5f6fa88ec064aa7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\StudioFolder\PrepCarApplication\app\libs\NineOldAndroid-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\StudioFolder\PrepCarApplication\app\build\intermediates\pre-dexed\debug\NineOldAndroid-2.4.0_b56b65e5beff013220fbc6eb49f8857e2bd65f26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\this\.android\build-cache\c2737f7731563949a51765cce7b920e09c0f72ce\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="D:\StudioFolder\PrepCarApplication\app\build\intermediates\pre-dexed\debug\classes_d99e8f56b402dd2c3ea7455cd7c973681fbf2d52.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\StudioFolder\PrepCarApplication\app\libs\volley.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b66aae66896c99cf89bc1ebed86732e9716e681d">
+        <dex dex="D:\StudioFolder\PrepCarApplication\app\build\intermediates\pre-dexed\debug\volley_71860e32e5278f1f82b9174cef77d4ba01b9400f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\this\.android\build-cache\4e4449036225306359bc9d685f5bc765444e4fed\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="D:\StudioFolder\PrepCarApplication\app\build\intermediates\pre-dexed\debug\classes_d12740e54f10d1db1c837779da9d87c2cd75c968.jar" />
+    </item>
+
+</items>

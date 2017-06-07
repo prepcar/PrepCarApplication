@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">634218270004-22urp8ml62otlv8sdjn7gg51e1fjv81i.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://prepcar-4a198.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">634218270004</string>
+    <string name="google_api_key" translatable="false">AIzaSyDwkV1OZNRyPqJSYjDIAaEBq5Z0w8uFZzI</string>
+    <string name="google_app_id" translatable="false">1:634218270004:android:874af42e44a16b71</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDwkV1OZNRyPqJSYjDIAaEBq5Z0w8uFZzI</string>
+    <string name="google_storage_bucket" translatable="false">prepcar-4a198.appspot.com</string>
+</resources>

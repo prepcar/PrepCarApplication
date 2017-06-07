@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    card_view:cardBackgroundColor="@android:color/white"
+    card_view:cardCornerRadius="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/item_card_stack_right_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:alpha="0"
+            android:fontFamily="fonts/Helvetica-Bold.otf"
+            android:text="Right"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="100dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/item_card_stack_left_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:alpha="0"
+            android:fontFamily="fonts/Helvetica-Bold.otf"
+            android:text="Left"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="100dp"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/topLay"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_margin="20dp"
+            >
+
+            <TextView
+                android:id="@+id/text_card1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="9dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:textColor="@color/com_facebook_blue"
+                android:text="Prp * 4588 * dsafkj" />
+
+            <ImageView
+                android:id="@+id/maches_carpic"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/text_card1"
+                android:scaleType="fitXY"
+                android:src="@drawable/car" />
+
+            <TextView
+                android:id="@+id/text_nickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:padding="7dp"
+                android:layout_margin="5dp"
+                android:textColor="#000000"
+                android:background="#ffffff"
+                android:textSize="16sp"
+                android:text="N/A"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/topLay"
+            android:orientation="horizontal"
+            android:layout_toLeftOf="@+id/rr_dealer"
+            android:layout_marginLeft="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:gravity="center"
+                android:textColor="@android:color/primary_text_light"
+                android:text="PRICE : " />
+            <TextView
+                android:id="@+id/text_cool_features"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_monthly_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_color"
+            android:orientation="horizontal"
+            android:layout_toLeftOf="@+id/rr_dealer"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:gravity="center"
+                android:textColor="@android:color/primary_text_light"
+                android:text="MONTHLY PAYMENT : " />
+            <TextView
+                android:id="@+id/text_monthly_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_card5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_monthly_price"
+            android:layout_toLeftOf="@+id/cirImage"
+            android:fontFamily="fonts/Helvetica-Bold.otf"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:text="description" />
+
+        <TextView
+            android:id="@+id/text_see_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_card5"
+            android:fontFamily="fonts/Helvetica-Bold.otf"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/com_facebook_blue"
+            android:text="Read More" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/text_see_more"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:id="@+id/ratingbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginBottom="5dp"
+            android:isIndicator="false"
+            android:numStars="5"
+            android:stepSize="1" >
+            <TextView
+                android:id="@+id/tv_nope"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NOPE"
+                android:background="@drawable/new_matches_nope"
+                android:layout_marginRight="10dp"
+                android:textColor="#A91A1E"/>
+
+            <TextView
+                android:id="@+id/tv_maybe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MAYBE"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/new_matches_maybe"
+                android:textColor="#36929F"/>
+
+            <TextView
+                android:id="@+id/tv_lovedit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LOVE IT"
+                android:background="@drawable/new_matches_lovedit"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rr_dealer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="180dp">
+
+            <com.dev.prepcarapplication.utilities.RoundedImageView
+                android:id="@+id/cirImage"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_centerHorizontal="true"
+                android:padding="3dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/download" />
+
+            <TextView
+                android:id="@+id/text_card3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cirImage"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:fontFamily="fonts/Helvetica-Bold.otf"
+                android:text="fdfff"
+                android:textColor="#293A92" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
